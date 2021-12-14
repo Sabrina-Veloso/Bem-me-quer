@@ -1,16 +1,16 @@
-const botao = document.getElementById("confirmacao");
-
+var botao = document.getElementById("confirmacao");
+var nada = null;
 botao.addEventListener('click', () => {
     //pegar a pergunta
     const pegarPergunta = document.getElementById("pergunta");
-    if (pegarPergunta == null) {
+    if (pegarPergunta == nada) {
         alert("Faça a sua pergunta!");
     } else {
         console.log(pegarPergunta)
     }
     //pegando o número
     const petalas = Number.document.getElementById("numero");
-    if (petalas == null) {
+    if (petalas == nada) {
         alert("Escolha um número!")
     } else {
         console.log(petalas)
