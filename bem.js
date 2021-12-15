@@ -15,4 +15,13 @@ botao.addEventListener('click', () => {
     } else {
         console.log(petalas)
     }
+
+    var contagem = 0;
+    for (contagem = 0; contagem < petalas; contagem++) {
+
+
+
+        console.log(contagem)
+    }
+
 })
