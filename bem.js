@@ -17,11 +17,20 @@ botao.addEventListener('click', () => {
     }
 
     var contagem = 0;
-    for (contagem = 0; contagem < petalas; contagem++) {
 
+    for (contagem = 0; contagem < petalas; contagem++);
 
+    var ultimoNumero = contagem.toString().split('').pop();
 
-        console.log(contagem)
+    if (ultimoNumero % 2 === 0) {
+        resut.innerHTML = `bem me quer`;
+    } else {
+        resut.innerHTML = `mal me quer`;
+
     }
+
+
+
+    console.log(ultimoNumero);
 
 })
