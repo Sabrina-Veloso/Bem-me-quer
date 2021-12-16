@@ -1,10 +1,21 @@
 body {
     font-family: 'Kumbh Sans', sans-serif;
+    background-color: #C2D2F2;
+    background-image: url("/imagem/Design\ sem\ nome.png");
 }
 
 h1 {
-    margin: 40px;
-    left: 10%;
+    position: absolute;
+    left: 320px;
+    right: 320px;
+    margin: 190px;
+}
+
+#campos {
+    margin: 250px;
+    position: absolute;
+    left: 350px;
+    right: 150px;
 }
 
 #confirmacao {
@@ -14,4 +25,5 @@ h1 {
 
 #resut {
     margin-top: 25px;
+    border-radius: 20px;
 }
