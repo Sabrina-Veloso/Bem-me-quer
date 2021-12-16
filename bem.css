@@ -1,6 +1,5 @@
 body {
     font-family: 'Kumbh Sans', sans-serif;
-    background-color: #C2D2F2;
     background-image: url("/imagem/Design\ sem\ nome.png");
 }
 
@@ -24,6 +23,14 @@ h1 {
 }
 
 #resut {
-    margin-top: 25px;
+    background-color: white;
+    align-items: center;
+    color: black;
+    width: 350px;
+    height: 90px;
     border-radius: 20px;
+    margin: 490px;
+    position: absolute;
+    left: 50px;
+    right: 100px;
 }
