@@ -5,9 +5,9 @@ body {
 
 h1 {
     position: absolute;
-    left: 320px;
+    left: 310px;
     right: 320px;
-    margin: 190px;
+    margin: 195px;
 }
 
 #campos {
@@ -49,6 +49,7 @@ h1 {
 #resut {
     background-color: white;
     text-align: center;
+    font-size: 25px;
     color: black;
     width: 350px;
     height: 90px;

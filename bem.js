@@ -13,24 +13,26 @@ botao.addEventListener('click', () => {
     if (petalas == "") {
         alert("Escolha um número!")
     } else {
-        console.log(petalas)
+        var contagem = 0;
+
+        for (contagem = 0; contagem < petalas; contagem++);
+
+        var ultimoNumero = contagem.toString().split('').pop();
+
+        if (ultimoNumero % 2 === 0) {
+            resut.innerHTML = `bem me quer`;
+        } else {
+            resut.innerHTML = `mal me quer`;
+
+        }
     }
 
-    var contagem = 0;
+})
 
-    for (contagem = 0; contagem < petalas; contagem++);
-
-    var ultimoNumero = contagem.toString().split('').pop();
-
-    if (ultimoNumero % 2 === 0) {
-        resut.innerHTML = `bem me quer`;
-    } else {
-        resut.innerHTML = `mal me quer`;
-
-    }
-
-
-
-    console.log(ultimoNumero);
+var botao2 = document.getElementById("limpar");
+botao2.addEventListener('click', () => {
+    document.getElementById("pergunta").value = "";
+    document.getElementById("numero").value = "";
+    resut.innerHTML = ""
 
 })
