@@ -1,8 +1,6 @@
 body {
     font-family: 'Kumbh Sans', sans-serif;
     background-image: url("/imagem/fundo.png");
-    min-width: 100vw;
-    min-height: 100vw;
 }
 
 main {
