@@ -36,6 +36,6 @@ var botao2 = document.getElementById("limpar");
 botao2.addEventListener('click', () => {
     document.getElementById("pergunta").value = "";
     document.getElementById("numero").value = "";
-    resut.innerHTML = ""
+    resut.innerHTML = `Resultado`
 
 })
